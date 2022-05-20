@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: azure;
+}
+
+.cabecera {
+  background-image: url(./fondo\ netflix.jpg);
+}
+
+.cabecera1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.cabecera1 > img {
+  width: 120px;
+}
